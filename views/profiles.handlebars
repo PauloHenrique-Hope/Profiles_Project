@@ -1,0 +1,12 @@
+<div class='profiles'>
+    <div class="profiles-container">
+        {{#each profiles}}
+           <div class="profile">
+                <div class="profile-content"><a href="editProfile/{{this.id}}">{{this.first_name}}</a></div>
+                <div class="profile-content">{{this.last_name}}</div>
+                <div class="profile-content">{{this.occupation}}</div>
+           </div>
+           
+        {{/each}}
+    </div>
+</div>

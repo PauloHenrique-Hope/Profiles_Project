@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* NAV-BAR */
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: lightsalmon;
+    padding: 15px;
+    box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.048);
+    gap: 10px;
+}
+
+.nav-bar h1:hover{
+    color: lightblue;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.nav-bar ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.nav-bar ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar ul a:hover{
+    color: lightblue;
+}
+
+.content-sec{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+
+}
+
+/* FORM-PROFILES */
+
+.form-profile{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.form-container{
+    padding: 25px;
+    width: 500px;
+    height: fit-content;
+    background-color: rgba(211, 211, 211, 0.027);
+    border: 1px solid lightblue;
+    margin-top: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.116);
+}
+
+.question-container{
+    display: block;
+}
+
+.question-container label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.question-container input{
+    width: 100%;
+    padding: 5px;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.btn-container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn-sub{
+    font-size: 20px;
+    border: none;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+.btn-sub:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+    
+}
+
+
+/* PROFILES */
+
+.profiles{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.profiles-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;      
+    width: 800px;
+    height: fit-content;
+    background-color: rgba(211, 211, 211, 0.055);
+    border: 2px solid rgba(0, 0, 0, 0.11);
+    padding: 20px;
+    margin-top: 30px;
+
+}
+
+.profile{
+    background-color: rgba(201, 218, 233, 0.747);
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.profile-content{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.295);
+    padding: 5px;
+}
+
+.profile-content a{
+    text-decoration: none;
+    color: lightcoral;
+}
+
+.edit-container{
+    margin-top: 10px;
+}

@@ -1,0 +1,23 @@
+<form action="/editProfile" method="POST" class="form-profile">
+    <input type="hidden" name="id" value="{{profile.id}}">
+    <div class="form-container">
+        <div class="question-container">
+            <label for="first_name">FIRST_NAME: </label>
+            <input type="text" name="first_name" placeholder="Enter your fist name:" value="{{profile.first_name}}">
+        </div>
+
+        <div class="question-container">
+            <label for="last_name">LAST_NAME: </label>
+            <input type="text" name="last_name" placeholder="Enter your last name: " value="{{profile.last_name}}">
+        </div>
+
+        <div class="question-container">
+            <label for="occupation">OCCUPATION: </label>
+            <input type="text" name="occupation" placeholder="Enter your occupation" value="{{profile.occupation}}">
+        </div>
+        <div class="btn-container">
+            <button type="submit" class="btn-sub">EDIT
+            </button>
+        </div>
+    </div>
+</form>
